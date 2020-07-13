@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
   <head>
     <title>Lisa Kang</title>
@@ -8,162 +13,245 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-      <link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
   </head>
-
   <body class="is-preload">
-    <!-- Wrapper-->
-    <div id="wrapper">
-      <!-- Nav -->
-      <nav id="nav">
-        <a href="#" class="icon solid fa-home"><span>Home</span></a>
-        <a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
-        <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"
-          ><span>Skills</span></a
-        >
-        <a href="#contact" class="icon solid fa-envelope"
-          ><span>Contact</span></a
-        >
-      </nav>
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"
+            ><img src="images/avatar.jpg" alt=""
+          /></span>
+          <h1 id="title">Lisa Kang</h1>
+          <p>Software Engineer</p>
+        </div>
 
-      <!-- Main -->
-      <div id="main">
-        <!-- Me -->
-        <article id="home" class="panel intro">
-          <header>
-            <h1>Lisa Kang</h1>
-            <p>Software Engineer</p>
-          </header>
-          <a href="#work" class="jumplink pic">
-            <span class="arrow icon solid fa-chevron-right"
-              ><span>Check out my projects!</span></span
-            >
-            <img src="images/me.jpg" alt="" />
-          </a>
-        </article>
-
-        <!-- Work -->
-        <article id="work" class="panel">
-          <header>
-            <h2>Work</h2>
-          </header>
-          <p>
-            Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum
-            eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia luctus elit eget interdum.
-          </p>
-          <section>
-            <div class="row">
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic01.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic02.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic04.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic05.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic06.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic07.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic08.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic09.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic10.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic11.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic12.jpg" alt=""
-                /></a>
-              </div>
-            </div>
-          </section>
-        </article>
-
-        <!-- Contact -->
-        <article id="contact" class="panel">
-          <header>
-            <h2>Contact Me</h2>
-          </header>
-          <form action="#" method="post">
-            <div>
-              <div class="row">
-                <div class="col-6 col-12-medium">
-                  <input type="text" name="name" placeholder="Name" />
-                </div>
-                <div class="col-6 col-12-medium">
-                  <input type="text" name="email" placeholder="Email" />
-                </div>
-                <div class="col-12">
-                  <input type="text" name="subject" placeholder="Subject" />
-                </div>
-                <div class="col-12">
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    rows="6"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <input type="submit" value="Send Message" />
-                </div>
-              </div>
-            </div>
-          </form>
-        </article>
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link"
+                ><span class="icon solid fa-home">Intro</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" id="portfolio-link"
+                ><span class="icon solid fa-th">Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" id="about-link"
+                ><span class="icon solid fa-user">About Me</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" id="contact-link"
+                ><span class="icon solid fa-envelope">Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
 
-      <!-- Footer -->
-      <div id="footer">
-        <ul class="copyright">
-          <li>&copy; Untitled.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://angel.co/u/lkang97"
+              class="icon brands fa-angellist"
+              ><span class="label">AngelList</span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/lkang97" class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lisa-kang-a084641aa/"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="lleekkang@gmail.com" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
         </ul>
       </div>
     </div>
 
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2 class="alt">
+              Hi! I'm <strong>Lisa</strong>, a
+              <a href="http://html5up.net/license">free</a> responsive<br />
+              site template designed by
+              <a href="http://html5up.net">HTML5 UP</a>.
+            </h2>
+            <p>
+              Ligula scelerisque justo sem accumsan diam quis<br />
+              vitae natoque dictum sollicitudin elementum.
+            </p>
+          </header>
+
+          <footer>
+            <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+          </footer>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <header>
+            <h2>Portfolio</h2>
+          </header>
+
+          <p>
+            Vitae natoque dictum etiam semper magnis enim feugiat convallis
+            convallis egestas rhoncus ridiculus in quis risus amet curabitur
+            tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam
+            vivamus eget. Nunc nibh morbi quis fusce hendrerit lacus ridiculus.
+          </p>
+
+          <div class="row">
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a href="#" class="image fit"
+                  ><img src="images/pic02.jpg" alt=""
+                /></a>
+                <header>
+                  <h3>Ipsum Feugiat</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"
+                  ><img src="images/pic03.jpg" alt=""
+                /></a>
+                <header>
+                  <h3>Rhoncus Semper</h3>
+                </header>
+              </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a href="#" class="image fit"
+                  ><img src="images/pic04.jpg" alt=""
+                /></a>
+                <header>
+                  <h3>Magna Nullam</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"
+                  ><img src="images/pic05.jpg" alt=""
+                /></a>
+                <header>
+                  <h3>Natoque Vitae</h3>
+                </header>
+              </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a href="#" class="image fit"
+                  ><img src="images/pic06.jpg" alt=""
+                /></a>
+                <header>
+                  <h3>Dolor Penatibus</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"
+                  ><img src="images/pic07.jpg" alt=""
+                /></a>
+                <header>
+                  <h3>Orci Convallis</h3>
+                </header>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
+
+          <a href="#" class="image featured"
+            ><img src="images/pic08.jpg" alt=""
+          /></a>
+
+          <p>
+            Tincidunt eu elit diam magnis pretium accumsan etiam id urna.
+            Ridiculus ultricies curae quis et rhoncus velit. Lobortis elementum
+            aliquet nec vitae laoreet eget cubilia quam non etiam odio tincidunt
+            montes. Elementum sem parturient nulla quam placerat viverra mauris
+            non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+            donec curae mus vel quisque sociis nec ornare iaculis.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+          <header>
+            <h2>Contact</h2>
+          </header>
+
+          <p>
+            Elementum sem parturient nulla quam placerat viverra mauris non cum
+            elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae
+            mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci
+            ridiculus faucibus a consectetur. Porttitor curae mauris urna mi
+            dolor.
+          </p>
+
+          <form method="post" action="#">
+            <div class="row">
+              <div class="col-6 col-12-mobile">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+              <div class="col-6 col-12-mobile">
+                <input type="text" name="email" placeholder="Email" />
+              </div>
+              <div class="col-12">
+                <textarea name="message" placeholder="Message"></textarea>
+              </div>
+              <div class="col-12">
+                <input type="submit" value="Send Message" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; Lisa Kang</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
