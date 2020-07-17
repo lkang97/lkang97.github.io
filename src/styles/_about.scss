@@ -45,3 +45,13 @@
     font-weight: 400;
   }
 }
+
+.single-project {
+  display: flex;
+  flex-direction: row;
+  @media only screen and (min-width: $cut) {
+    flex-wrap: wrap;
+    font-size: 75px;
+    width: 80%;
+  }
+}
