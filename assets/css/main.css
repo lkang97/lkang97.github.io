@@ -4024,3 +4024,28 @@ body {
   height: auto;
   width: 80vw;
 }
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-container .img {
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  width: 150px;
+  margin: 15px;
+  border: 2px solid #00070e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-image {
+  height: 100px;
+  width: 100px;
+}
