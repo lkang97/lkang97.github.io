@@ -2,7 +2,7 @@
 title: Lisa Kang
 description: Personal Portfolio Site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://lkang97.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Lisa Kang
