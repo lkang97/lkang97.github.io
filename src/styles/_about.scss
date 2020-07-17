@@ -1,6 +1,6 @@
 #about {
   font-size: 120%;
-  
+
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
@@ -16,7 +16,8 @@
 .tech {
   margin: 10px;
   flex: 1 1 0;
-  h2, h3 {
+  h2,
+  h3 {
     font-weight: 400;
   }
 }
@@ -27,7 +28,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   p {
     font-size: 16px;
   }

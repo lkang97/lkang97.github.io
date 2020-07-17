@@ -6,7 +6,7 @@ url: "http://localhost:3000" # the base hostname & protocol for your site e.g. h
 
 # User settings
 username: Lisa Kang
-user_description: Software Engineer
+user_description: Hi! I'm a biologist turned software engineer with an immeasurable interest in puzzles. Naturally, I'm drawn towards roles that allow me to think critically and creatively to solve problems. I'd like to think of software development as the ultimate puzzle. Different features and components act as the individual pieces and when combined all together, it can result in the most amazing application.
 user_title: Software Engineer
 email: lleekkang@gmail.com
 # twitter_username: lorem_ipsum
